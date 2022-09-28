@@ -1,2 +1,2 @@
-# First-
-html and css
+# First-repository
+Made with html and css only
