@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.section30{
+    position: relative;
+    /* border: 2px solid black; */
+    /* margin-top: 80px; */
+    top: 370px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.line1{
+    /* border: 1px solid brown; */
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.about-us{
+    /* border: 2px solid grey; */
+    /* margin-top: 100px; */
+    text-align: center;
+    width: 50%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.about-us::before{
+    content: "";
+    height: 100px;
+    width: 2px;
+    background-color: orange;
+    margin-left: 50%;
+}
+
+.about-us h4{
+    font-size: 30px;
+    margin-top: 5px;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.about-us h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+}
+.line1-details{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 62vh;
+    margin-top: 60px;
+    display: flex;
+}
+.line1-details .Our-Story{
+    margin: 10px 10px;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: center;
+}
+.line1-details .Our-vision h2,
+.line1-details .Our-Story h2{
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.line1-details .Our-vision p,
+.line1-details .Our-Story p{
+    margin: 10px 10px;
+    font-size: 25px;
+}
+.line1-details .Our-vision a,
+.line1-details .Our-Story a{
+    text-decoration: none;
+    background-color: black;
+    margin: 20px 10px;
+    padding: 10px 10px;
+    color: white;
+    width:105px;
+}
+.line1-details .Our-vision{
+    margin: 10px 10px;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: center;
+}
+.line1-details .coffee-image{
+    margin: 10px 10px ;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.line1-details .coffee-image img{
+    height: 95%;
+    margin: 14px -60px;
+}
+.line1-details .Our-vision a:hover,
+.line1-details .Our-Story a:hover{
+    color: black;
+    background-color: orange;
+}

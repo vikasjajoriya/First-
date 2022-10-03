@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.section4{
+    position: relative;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    /* top: 90px; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.about-us{
+    /* border: 2px solid grey; */
+    /* margin-top: 100px; */
+    text-align: center;
+    width: 50%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.about-us::before{
+    content: "";
+    height: 100px;
+    width: 2px;
+    background-color: orange;
+    margin-left: 50%;
+}
+
+.about-us h4{
+    font-size: 30px;
+    margin-top: 5px;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.about-us h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+}
+.line2{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.line2-items{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.line2-services{
+    /* border: 2px solid black; */
+    width: 48%  ;
+    height: 32vh;
+    display: flex;
+    margin: 10px 10px;
+}
+.line2-services img{
+    width: 42%;
+    height: 25vh;
+    margin: 21px 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* background: linear-gradient(rgba(51,33,29,0.9), rgba(51,33,29,0.9)),url('Images/service-2.jpg'); */
+}
+.line2-abt{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 64%;
+    margin-bottom: 25px;
+}
+.line2-abt span{
+    margin: 20px 0px;
+    height: 50px;
+    display: flex;
+    width: 50px;
+    background-color: orange;
+    border-radius: 40px;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.line2-services h3{
+margin:33px 10px;
+font-size: 20px;
+font-weight: bold;
+}
+.line2-abt h3{
+    font-size: 19px;
+    font-weight: 900;
+}
+.line2-abt p{
+    text-align: center;
+    margin: 0px 5px;
+}

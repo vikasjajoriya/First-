@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section2 img{
+    position: absolute;
+    top: 76%;
+    width: 100%;
+}

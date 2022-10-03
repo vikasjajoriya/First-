@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.section-60{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    top: 360px;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;  
+ 
+}
+.line3{
+    /* border: 1px solid brown; */
+    width: 100%;
+    height: 90vh;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.MENU-PRICING{
+    /* border: 2px solid grey; */
+    margin-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.MENU-PRICING::before{
+    content: "";
+    height: 100px;
+    width: 2px;
+    background-color: orange;
+    margin-left: 50%;
+}
+.MENU-PRICING h4{
+    font-size: 30px;
+    margin-top: 5px;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.MENU-PRICING h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+}
+.hot-coffee{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hot-coffee .variety{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+}
+.variety h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    /* text-align: center; */
+    text-decoration: underline;
+}
+.hot1{
+    /* border: 2px solid blue; */
+    display: flex;
+    padding: 20px 0px;
+    width: 100%;
+    margin: 20px 0px;
+}
+.hot1 h1{
+    background-color: orange;
+    border-radius: 50%;
+    height: 50%;
+    padding: 10px 10px;
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    top: -10px;
+    text-decoration: none;
+}
+.hot1 img{
+    border-radius: 50%;
+    width:100px;
+}
+.hot1-content{
+    margin: 0px 10px;
+}
+.hot1-content h3{
+font-size: 30px;
+/* letter-spacing: 1.2px; */
+}
+.hot1-content p{
+margin-top: 10px;
+font-size: 20px;
+}
